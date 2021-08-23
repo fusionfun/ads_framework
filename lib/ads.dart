@@ -84,6 +84,10 @@ abstract class Ads<T> {
     handlers.add(handler);
   }
 
+  void removeHandler(AdsHandler handler) {
+    handlers.remove(handler);
+  }
+
   void setProperty(String name, String data) {
     properties[name] = data;
   }
@@ -226,7 +230,8 @@ enum AdCause {
   internalError,
   rewardedFailed,
   unknownError,
-  noAds
+  noAds,
+  sdkNotInitialized
 }
 
 class AdsResult {
@@ -361,5 +366,4 @@ class AdSlotId {
 }
 
 class AdsEnv {
-
 }

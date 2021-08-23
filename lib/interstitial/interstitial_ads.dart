@@ -12,4 +12,8 @@ abstract class InterstitialAds<T> extends Ads<T> with AdsReload, AdsAudit {
   Future dispose() async {
     super.dispose();
   }
+
+  Future<AdCause> checkShow({String scene = ""}) async {
+    return AdCause.success;
+  }
 }
