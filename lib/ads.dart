@@ -249,17 +249,6 @@ class AdsResult {
   AdsResult.build(this.type, this.cause, {this.internalCause});
 }
 
-class AdScene {
-  static const gameNew = "game_new";
-  static const gameReplay = "game_replay";
-  static const gameWin = "game_win";
-  static const jokerUnlock = "joker_unlock";
-  static const getCoins = "get_coins";
-  static const theme = "theme";
-  static const bgUnlock = "bg_unlock";
-  static const cbUnlock = "cb_unlock";
-  static const cfUnlock = "cf_unlock";
-}
 
 class AdNetwork {
   static const Mopub = "Mopub";
