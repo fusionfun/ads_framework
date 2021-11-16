@@ -11,13 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # flutter_utils:
-  #   path: ../flutter_utils
-
-  # flutter_analytics:
-  #   path: ../flutter_analytics
-
   flutter_utils:
     git:
       url: git@codeup.aliyun.com:60dc24c94690c27532d3cb5f/lib/flutter_utils.git
@@ -27,6 +20,13 @@ dependencies:
     git:
       url: git@codeup.aliyun.com:60dc24c94690c27532d3cb5f/lib/flutter_analytics.git
       ref: master
+
+dependency_overrides:
+  flutter_utils:
+    path: ../flutter_utils
+
+  flutter_analytics:
+    path: ../flutter_analytics
 
 dev_dependencies:
   flutter_test:
