@@ -13,12 +13,12 @@ dependencies:
     sdk: flutter
   flutter_utils:
     git:
-      url: git@realcradle:realcradle/lib/flutter_utils.git
+      url: git@realcradle:realcradle/flutter_utils.git
       ref: main
 
   flutter_analytics:
     git:
-      url: git@realcradle:realcradle/lib/flutter_analytics.git
+      url: git@realcradle:realcradle/flutter_analytics.git
       ref: main
 
 dependency_overrides:
